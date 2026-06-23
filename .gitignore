@@ -1,0 +1,42 @@
+# Dataset directories
+/Youtube-VOS-CL/
+/DAVIS/
+/data/
+/dataset/
+/datasets/
+
+# Local pretrained weights and model snapshots
+/segformer-b3-finetuned-ade-512-512/
+/libs/models/
+/ckpt/
+*.ckpt
+*.pth
+*.pth.tar
+*.pt
+*.bin
+*.safetensors
+
+# Training and evaluation outputs
+/output/
+/runs/
+*.log
+events.out.tfevents.*
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and editor state
+.conda-env/
+.env
+.venv/
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# System files
+.DS_Store
